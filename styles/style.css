@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol {
-    font-family: 'inter';
+    font-family: 'Inter';
 }
 
 :root {
@@ -85,7 +85,7 @@ p, ul, ol {
 
 .intro-subtitle {
     flex-basis: 203px;
-    font-family: 'inter';
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -93,7 +93,7 @@ p, ul, ol {
 }
 
 .date-subtitle {
-    font-family: 'inter';
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;

@@ -21,7 +21,7 @@
 }
 
 @font-face {
-	font-family: 'inter';
+	font-family: 'Inter';
 	src: local('inter-regular'),
     url('../fonts/interregular.woff2') format('woff2'),
     url('../fonts/interregular.woff') format('woff'),
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-	font-family: 'inter';
+	font-family: 'Inter';
 	src: local('inter-regular'),
     url('../fonts/interbold.woff2') format('woff2'),
     url('../fonts/interbold.woff') format('woff'),
