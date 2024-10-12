@@ -19,13 +19,6 @@ p, ul, ol {
     background-color: var(--dark-grey);
 }
 
-.container {
-    max-width: 360px;
-    padding: 0 21px;  
-    margin: 0 auto;
-    width: 100%;
-}
-
 .content-section_theme_dark {
     background-color: var(--black);
     color: var(--white);
@@ -41,20 +34,26 @@ p, ul, ol {
     padding-bottom: 39px;
 }
 
+.container {
+    max-width: 360px;    
+    padding: 0 20px;  
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 /* ------------------------------------------------------------------------------------- text */
 
 .title {
     font-weight: 400;
     font-size: 69px;
-    line-height: 111%;
-    text-align: center;
+    line-height: 109%;
 }
 
 .text {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 126%;
+    font-size: 16px;
+    line-height: 135%;
 }
 
 .subtitle__block {
@@ -79,14 +78,14 @@ p, ul, ol {
 
 .large-text {
     font-weight: 400;
-    font-size: 21px;
-    line-height: 128%;
+    font-size: 20px;
+    line-height: 132%;
     color: var(--black);
 }
 
 .intro-subtitle {
     flex-basis: 203px;
-    font-family: 'inter', sans-serif;
+    font-family: 'inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -94,7 +93,7 @@ p, ul, ol {
 }
 
 .date-subtitle {
-    font-family: 'inter', sans-serif;
+    font-family: 'inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -102,7 +101,7 @@ p, ul, ol {
 }
 
 .card-title {
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     font-weight: 500;
     font-size: 22px;
     line-height: 135%;
@@ -151,7 +150,7 @@ p, ul, ol {
 .header__menu {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 13px;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -189,13 +188,16 @@ p, ul, ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    flex-basis: 304px;
     list-style-type: disc;
     gap: 16px;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 127%;
+    font-size: 16px;
+    line-height: 135%;
     color: var(--black);
+}
+
+.reasons__item {
+    flex-basis: 304px;
 }
 
 .reasons-padding {
@@ -209,7 +211,7 @@ p, ul, ol {
 .how-to-flex {
     display: flex;
     flex-direction: column;
-    gap: 34px;
+    gap: 32px;
 }
 
 .how-to-padding {
@@ -236,6 +238,7 @@ p, ul, ol {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    margin-bottom: 20px;
 }
 
 .card__img {
@@ -246,13 +249,12 @@ p, ul, ol {
 }
 
 .card-list-name {
+    display: block;
     font-weight: 700;
     font-size: 16px;
     line-height: 135%;
-    color: var(--white);
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
-
 
 /* ------------------------------------------------------------------------------------- footer */
 
@@ -266,4 +268,8 @@ p, ul, ol {
 .social-links {
     display: flex;
     gap: 18px;
+}
+
+.img-footer {
+    flex-basis: 92px;
 }
