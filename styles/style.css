@@ -145,7 +145,7 @@ p, ul, ol {
 .header-flex {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px; 
+    padding-top: 24px;
     padding-bottom: 24px;
 }
 
