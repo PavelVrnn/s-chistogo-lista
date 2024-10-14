@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond', Times, serif;
 }
 
 p, ul, ol {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 :root {
@@ -26,6 +26,13 @@ p, ul, ol {
     width: 100%;
 }
 
+.cover__container {
+    max-width: 360px;
+    padding: 5px 20px 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .content-section_theme_dark {
     background-color: var(--black);
     color: var(--white);
@@ -37,7 +44,7 @@ p, ul, ol {
 }
 
 .section-padding {
-    padding-top: 32px;
+    padding-top: 28px;
     padding-bottom: 39px;
 }
 
@@ -73,7 +80,11 @@ p, ul, ol {
 
 .text-right {
     display: block;
-    text-align:right;
+    text-align: right;
+}
+
+.text-spacing {
+    letter-spacing: 2px;
 }
 
 .large-text {
@@ -101,7 +112,7 @@ p, ul, ol {
 }
 
 .card-title {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 22px;
     line-height: 135%;
@@ -131,10 +142,16 @@ p, ul, ol {
 
 /* ------------------------------------------------------------------------------------- header */
 
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px; 
+    padding-bottom: 24px;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0 24px;
 }
 
 .header__logo {
@@ -181,7 +198,7 @@ p, ul, ol {
 .reasons-flex {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 34px;
 }
 
 .reasons__list {
@@ -258,18 +275,28 @@ p, ul, ol {
 
 /* ------------------------------------------------------------------------------------- footer */
 
-.footer-flex {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.footer-padding {
+    padding: 21px;
     border-top: 1px solid var(--yellow);
+}
+
+.text-links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    color: var(--white);
 }
 
 .social-links {
     display: flex;
-    gap: 18px;
+    gap: 17px;
 }
 
 .img-footer {
     flex-basis: 92px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
 }

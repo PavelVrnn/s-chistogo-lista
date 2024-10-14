@@ -11,11 +11,11 @@
 </head>
 <body class="body">
     <header class="header">
-        <div class="container content-section_theme_dark">
+        <div class="container header-flex content-section_theme_dark">
+            <a href="#" class="header__logo">
+                <img src="images/logo.svg" alt="Логотип">
+            </a>
             <nav class="nav">
-                <a href="#" class="header__logo">
-                    <img src="images/logo.svg" alt="Логотип">
-                </a>
                 <ul class="header__menu">
                     <li class="header__list">
                         <a href="" class="header__link">
@@ -38,8 +38,8 @@
     </header>   
     <main class="main">
             <section class="cover">
-                <div class="container cover__background content-section_theme_dark">
-                    <h1 class="title"><span class="text-left">C</span> <span class="text-center">чистого</span> <span class="text-right">листа</span></h1>
+                <div class="cover__container cover__background content-section_theme_dark">
+                    <h1 class="title"><span class="text-left">C</span> <span class="text-center">чистого</span> <span class="text-right text-spacing">листа</span></h1>
                 </div>    
             </section>
 
@@ -138,18 +138,24 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-flex content-section_theme_dark">
-            <a href="#" class="header__logo">
-                <img class="img-footer" src="images/©_VЁRSTKA.svg" alt="Логотип">
-            </a>
-            <div class="social-links">
-                <a href="https://vk.com/" class="vk-link">
-                    ВК
-                </a>
-                <a href="https://www.youtube.com/" class="youtube-link">
-                    Ютуб
-                </a>
-            </div>
+        <div class="container footer-padding content-section_theme_dark">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="#" class="footer-link">
+                        © VЁRSTKA
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <div class="social-links text-links">
+                        <a href="https://vk.com/" class="vk-link">
+                            ВК
+                        </a>
+                        <a href="https://www.youtube.com/" class="youtube-link">
+                            Ютуб
+                        </a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </footer> 
 
